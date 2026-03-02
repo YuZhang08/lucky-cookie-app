@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Lucky Cookie",
+    "slug": "lucky-cookie-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#fff4df"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.portfolio.luckycookie"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#fff4df"
+      },
+      "package": "com.portfolio.luckycookie"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "replace-with-your-eas-project-id"
+      }
+    }
+  }
+}
